@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+body { margin: 0; background: #eef3f8; color: #162033; }
+button, input { font: inherit; }
+.glass { backdrop-filter: blur(18px); background: rgba(255,255,255,.78); }
+.dark .glass { background: rgba(22, 32, 51, .82); }
+.scrollbar::-webkit-scrollbar { width: 8px; }
+.scrollbar::-webkit-scrollbar-thumb { background: #9aa8ba; border-radius: 999px; }
